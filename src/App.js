@@ -11,7 +11,7 @@ class App extends React.Component {
   fetchrandVerse = async () => {
     try {
       const verseObj = await axios.get(
-        `https://labs.bible.org/api/?passage=random&type=json`
+        `https://cors-anywhere.herokuapp.com/https://labs.bible.org/api/?passage=random&type=json`
       );
       const { bookname, chapter, verse, text } = verseObj.data[0];
       this.setState({ bookname, chapter, verse, text });
