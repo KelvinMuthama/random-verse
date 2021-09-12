@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## CORS issue
+
+To view the app running, you'll need to click on the button on this link https://cors-anywhere.herokuapp.com/corsdemo first
+
+## Project Link
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5561c878-6306-43a7-9bd6-0585cd532389/deploy-status)](https://app.netlify.com/sites/practical-yonath-29c725/deploys) Click on the badge
+
+To view the app running, you'll need to click on the button on this link https://cors-anywhere.herokuapp.com/corsdemo first
+
 ## Available Scripts
 
 In the project directory, you can run:
